@@ -54,10 +54,10 @@ def main():
 
                 if len(player_clicks) == 2:
                     move = Move(gs.board, player_clicks[0], player_clicks[1])
-                    print(move)
                     if move in validMoves:
                         gs.makeMove(move)
                         moveMade = True
+                        print(move)
                         selected_square = ()
                         player_clicks = []
                         if gs.board[row][col] != "--":
