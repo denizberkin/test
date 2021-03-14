@@ -17,7 +17,7 @@
   
   - Pawn promotion
   
-  - Visual notation corners (a,b,c.. h & 1,2,3.. 8)
+  - Visual notation in corners (a,b,c.. h & 1,2,3.. 8)
   
   - Visual notation on moves made
   
