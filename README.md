@@ -7,18 +7,18 @@
 -
 
 # Lacks:
-  -FEN notation (optimized implementation for storing&reading board, currently using just an array)
+  - FEN notation (optimized implementation for storing&reading board, currently using just an array)
   
-  -En passant
+  - En passant
   
-  -Castling
+  - Castling
   
-  -Pawn promotion
+  - Pawn promotion
   
-  -Visual notation corners (a,b,c.. h & 1,2,3.. 8)
+  - Visual notation corners (a,b,c.. h & 1,2,3.. 8)
   
-  -Visual notation on moves made
+  - Visual notation on moves made
   
-  -Can return to a previous move but cannot return to another branch of moves that has been returned from
+  - Can return to a previous move but cannot return to another branch of moves that has been returned from
   
-  -Notification for game ending
+  - Notification for game ending
