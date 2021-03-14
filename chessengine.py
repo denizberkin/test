@@ -1,6 +1,6 @@
 import pygame
 pygame.mixer.init()
-SOUND = pygame.mixer.Sound("sound2.wav")
+SOUND = pygame.mixer.Sound("sound.wav")
 
 
 class Game:
