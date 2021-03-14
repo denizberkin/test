@@ -2,7 +2,9 @@
 
 -Chess using pygame later to be used in making solver algorithms
 
--I took the colors from chess.com 
+-Colors taken from chess.com's tournament board style
+
+-
 
 # Lacks:
   -FEN notation (optimized implementation for storing&reading board, currently using just an array)
