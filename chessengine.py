@@ -306,9 +306,12 @@ class Move(Game):
         return False
 
     def __repr__(self):
-        return self.board[self.x1][self.y1][1].lower() + " " + self.getRankFile(self.x1,
-                                                                                self.y1) + " " + self.getRankFile(
-            self.x2, self.y2)
+        if self.piece_captured != "--":
+            captured = self.piece_moved[1] if self.piece_moved[1] != "P" else ""
+            captured += "x" + self.getRankFile(self.x2, self.y2) + ("+" if self.inCheck else "")
+        else:
+            captured = self.getRankFile(self.x2, self.y2) + ("+" if self.inCheck else "")
+        return captured
 
     def getRankFile(self, row, column):
         return self.colsToFiles[column] + self.rowsToRanks[row]

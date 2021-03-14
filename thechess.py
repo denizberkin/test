@@ -30,7 +30,6 @@ def main():
     load_images()
     selected_square = ()
     player_clicks = []
-    clicks_temp = []
     col, row = 0, 0
     while running:
         for e in pygame.event.get():
@@ -57,6 +56,8 @@ def main():
                     if move in validMoves:
                         gs.makeMove(move)
                         moveMade = True
+                        if gs.checkFor()[0]:
+                            move.inCheck = True
                         print(move)
                         selected_square = ()
                         player_clicks = []
