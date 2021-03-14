@@ -310,7 +310,7 @@ class Move(Game):
             captured = self.piece_moved[1] if self.piece_moved[1] != "P" else ""
             captured += "x" + self.getRankFile(self.x2, self.y2) + ("+" if self.inCheck else "")
         else:
-            captured = self.getRankFile(self.x2, self.y2) + ("+" if self.inCheck else "")
+            captured = (self.piece_moved[1] if self.piece_moved[1] != "P" else "") + self.getRankFile(self.x2, self.y2) + ("+" if self.inCheck else "")
         return captured
 
     def getRankFile(self, row, column):
