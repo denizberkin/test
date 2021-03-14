@@ -4,12 +4,12 @@
 
 - Chess using pygame later to be used in making solver algorithms
 
-- Colors taken from chess.com's tournament board style
+- Took the colors chess.com's tournament board style
 
--
+- 
 
 # Lacks:
-  - FEN notation (optimized implementation for storing&reading board, currently using just an array)
+  - FEN notation (optimized implementation for storing & reading board, currently using just an array)
   
   - En passant
   
