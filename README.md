@@ -5,7 +5,7 @@
 -I took the colors from chess.com 
 
 # Lacks:
-  #-FEN notation (optimized implementation for storing&reading board, currently using just an array)
+  -FEN notation (optimized implementation for storing&reading board, currently using just an array)
   
   -En passant
   
