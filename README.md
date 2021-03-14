@@ -1,5 +1,7 @@
 # Chess with python
 
+- just of boredom
+
 - Chess using pygame later to be used in making solver algorithms
 
 - Colors taken from chess.com's tournament board style
