@@ -1,8 +1,8 @@
 # Chess with python
 
--Chess using pygame later to be used in making solver algorithms
+- Chess using pygame later to be used in making solver algorithms
 
--Colors taken from chess.com's tournament board style
+- Colors taken from chess.com's tournament board style
 
 -
 
